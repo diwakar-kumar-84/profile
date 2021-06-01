@@ -1,7 +1,7 @@
 function get() {
   var projects = [];
   const newSection = document.querySelector(".project");
-  fetch("https://api.github.com/users/diwakar-kumar-au3/repos")
+  fetch("https://api.github.com/users/diwakar-kumar-84/repos")
     .then((response) => response.json())
     .then((res) => {
       res.forEach((resp) => {
